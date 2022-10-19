@@ -1,10 +1,10 @@
-#Joseph Brehm       10.18.22
-#Lab Week 9         Exercise 1
+# Joseph Brehm       10.18.22
+# Lab Week 9         Exercise 1
 
 import random
 
 x = int(input("Input an integer for A: "))
-y= int(input("input an integer for B: "))
+y = int(input("input an integer for B: "))
 
 
 def main(x, y):
@@ -18,6 +18,7 @@ def main(x, y):
         if i % y == 0:
             multiples.append(i)
     return multiples
+
 
 returnedValues = main(x, y)
 print(returnedValues)
