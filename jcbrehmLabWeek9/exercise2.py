@@ -31,6 +31,7 @@ def main():
         if distance < minDistance:
             minDistance = distance
             closestCity = city
+    print()
     print(listName)
     print(listDistances)
     print("The closest city to you ({0}, {1}) is {2}. The distance is {3}".format(
